@@ -1,0 +1,16 @@
+{
+  "name": "ChatPlaysNethack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alagane/ChatPlaysNethack.git",
+  "author": "Alexandre Lagane",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "eris": "^0.11.2",
+    "telnet-client": "^1.2.11"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}

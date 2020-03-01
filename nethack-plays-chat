@@ -1,8 +1,0 @@
-#!/bin/sh
-
-while true
-do
-	input=`cat /home/alagane/nethack-input`
-	echo "Typing '$input'"
-	xdotool search --name "^nethack-loop$" windowfocus key $input
-done
